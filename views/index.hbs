@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="/api/refresh_balance">
+        <input hidden type="text" value="user-id-token" name="userId">
+        <button type="submit" > Refresh</button>
+    </form>
+    <form method="post" action="/api/receipt">
+        <input hidden type="text" value="user-id-token" name="userId">
+        <button type="submit" > Receipt</button>
+    </form>
+
+</body>
+</html>
